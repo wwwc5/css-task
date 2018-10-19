@@ -1,0 +1,83 @@
+body{
+    background-color: #eeeeee;
+    margin: 0;
+}
+.container{
+    text-align: center;
+    /*font-size: 1vh;*/
+    font-size: 14px;
+    min-width: 200px;
+    margin: 8px;
+}
+
+/*头部*/
+.head{
+    background-color: rgb(90,192,206);
+    color: white;
+    padding: 0 18px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.regist{
+    float: left;
+}
+.close{
+    float: right;
+}
+
+.input-wrapper{
+    background-color: white;
+    margin-bottom: 10px;
+    line-height: 56px;
+}
+
+.input-wrapper:after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.input-wrapper>.icon-block{
+    text-align: center;
+    width: 56px;
+    float: left;
+}
+.input-wrapper>.icon-block img{
+    vertical-align: middle;
+}
+.input-wrapper>.input-content{
+    margin-left: 56px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.input-wrapper>.input-content input{
+    box-sizing: border-box;
+    width: 100%;
+    outline: 0;
+    border: none;
+    border-left: #dddddd 1px solid;
+    padding: 6px 16px;
+    line-height: 30px;
+}
+
+/*登录按钮*/
+.btn{
+    width: 100%;
+    background-color: rgb(90,192,206);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.fogetPassword{
+    text-align: right;
+    margin-top: 5px;
+}
+
+.fogetPassword>a{
+    color: rgb(90,192,206);
+}
