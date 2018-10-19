@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+}
+
+/*固定头部*/
+.head{
+    background-color: rgb(90,192,206);
+    height: 50px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    z-index: 999;
+}
+
+.back{
+    position: absolute;
+    left: 10px;
+}
+
+.head:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+/*个人信息*/
+.personalInfo{
+    background-image: url("img/doctor.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 165px;
+    margin-top: 50px;
+    display: flex;
+    align-items:center;
+}
+
+.photo{
+    margin-left: 20px;
+}
+
+.info{
+    margin-left: 20px;
+    color: white;
+}
+
+.address{
+    font-size: 12px;
+}
+
+/*专业技能*/
+.professionalSkill{
+    display: flex;
+    align-items:center;
+    margin-top: 0;
+    font-size: 13px;
+    margin-bottom: 60px;
+}
+
+.detail{
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+    margin: 0;
+}
+
+.title>span{
+    border-left: rgb(90,192,206) 4px solid;
+    padding-left: 10px;
+    line-height: 16px;
+}
+
+.detail>li{
+    padding: 20px 20px;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.extra img{
+    position: relative;
+    top: 5px;
+}
+
+.type{
+    color: #aaaaaa;
+    float: left;
+}
+
+.type>span{
+    border-right: 1px #aaaaaa solid;
+    padding-right: 15px;
+    width: 70px;
+}
+
+.value{
+    float: left;
+    margin-left: 15px;
+}
+
+.selfIntro{
+    display: flex;
+    line-height: 30px;
+}
+
+.selfIntro>.type{
+    display: flex;
+    align-items: center;
+    width: 68px;
+}
+
+.detail>li:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+/*脚部*/
+.foot{
+    position: fixed;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.foot>button{
+    margin: 10px;
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.leftBtn{
+    color: rgb(90,192,206);
+    border: rgb(90,192,206) 2px solid;
+    background-color: white;
+    font-size: 16px;
+}
+
+.rightBtn{
+    color: white;
+    background-color: rgb(90,192,206);
+    font-size: 16px;
+    border: none;
+}
