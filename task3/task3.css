@@ -1,0 +1,44 @@
+.container{
+    background-color: rgb(104,205,213);
+    color: white;
+    text-align: center;
+    padding-bottom: 10%;
+    font-size: small;
+}
+.back{
+    text-align: left;
+    padding: 10px;
+}
+.grape,
+.title{
+    display: inline-block;
+}
+.title>img{
+    position: absolute;
+    left: 20%;
+}
+.title>p{
+    margin-top: -20px;
+}
+.content{
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.user{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.user-left{
+    display: inline-block;
+    float: left;
+}
+.user-right{
+    display: inline-block;
+    float: right;
+}
+.user:after{
+    content: " ";
+    clear: both;
+    display: block;
+}
