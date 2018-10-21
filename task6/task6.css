@@ -1,0 +1,154 @@
+/*固定头部*/
+.head{
+    background-color: rgb(94,192,206);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    padding: 8px 15px;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.btn-group>button{
+    border: none;
+    background-color: rgb(85,167,178);
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.btn-group>button:focus{
+    outline: none;
+    background-color: white;
+    color: rgb(94,192,206);
+}
+
+.btn-group>button:hover{
+    color: rgb(94,192,206);
+}
+
+.btn-group>button:active{
+    outline: none;
+}
+
+.img-wrapper{
+    height: 34px;
+    float: right;
+}
+
+.head-img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/*主要内容*/
+.container{
+    padding: 60px 0;
+    font-size: 12px;
+}
+
+.dropdown-wrapper{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown{
+    border-right: #dddddd 1px solid;
+    padding: 5px 5px;
+    width: 32%;
+}
+
+.dropdown>a{
+    color: #aaaaaa;
+}
+
+.dropdown>a>span{
+    margin-left: 10%;
+}
+
+.dropdown-menu{
+    min-width: 100%;
+    text-align: center;
+}
+.dropdown-menu>li{
+    margin-bottom: 5px;
+    color: #aaaaaa;
+}
+
+.right-menu{
+    border: none;
+}
+
+.main-ul{
+    list-style: none;
+    color: #aaaaaa;
+    padding: 10px 0;
+}
+
+.detail{
+    margin-left: 0;
+    border-top: #dddddd 1px solid;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail-left>p{
+    color: black;
+    margin: 5px 25px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.detail-left{
+    height: 100%;
+    display: inline-block;
+    width: 70%;
+}
+
+.detail-right{
+    height: 100%;
+    display: inline-block;
+    width: 30%;
+}
+
+.detail-right>span{
+    color: rgb(216,103,77);
+    font-size: 15px;
+}
+
+/*固定脚部*/
+.foot{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: #dddddd 1px solid;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+.foot-middle{
+    margin: 0 30px;
+}
+
+.foot-left>a{
+    color: rgb(94,192,206);
+}
+
+.foot-right>a{
+    color: rgb(168,168,168);
+}
+
+
