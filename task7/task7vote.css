@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(41,189,224);
+    height: 100%;
+}
+
+/*固定头部*/
+.head{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(41,189,224);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    font-size: 18px;
+    z-index: 999;
+}
+
+.left-head{
+    border: 1px white solid;
+    width: 21px;
+    height: 20px;
+}
+
+.left-head>div{
+    border: 1px white solid;
+    margin-top: 3px;
+    margin-left: 2px;
+    width: 15px;
+}
+
+/*主要内容*/
+.content{
+    background-color: rgb(41,189,224);
+    padding: 55px 0 55px 0;
+}
+
+.attention{
+    background-color: rgb(185,233,245);
+    padding: 15px 25px;
+    position: relative;
+}
+
+.bot {
+    width:0;
+    height:0;
+    font-size:0;
+    overflow:hidden;
+    position:absolute;
+    border-width: 10px;
+    border-style: solid dashed dashed;
+    border-color: rgb(185,233,245) transparent transparent transparent;
+    left: 35px;
+    top: 50px;
+}
+
+.play-btn{
+    position: absolute;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(251,180,53);
+    right: 15px;
+    top: 15%;
+}
+
+.inner-play{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 12px;
+    border-color: transparent transparent transparent white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -6px 0 0 -4px;
+}
+
+.content>p{
+    color: white;
+    padding: 15px 25px;
+    margin: 0;
+}
+
+.detail{
+    text-align: center;
+}
+
+.detail-box{
+    margin: 20px 10px 20px 10px;
+    display: inline-block;
+}
+
+.character-box{
+    width: 70px;
+    height: 70px;
+    border: 3px white solid;
+}
+
+.character{
+    color: rgb(86,86,86);
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(245,201,123);
+}
+
+.number{
+    text-align: center;
+    background-color: rgb(131,176,154);
+    color: white;
+    line-height: 24px;
+}
+
+.character>p,
+.number>p{
+    margin: 0;
+}
+
+.action{
+    margin-top: 5px;
+    display: none;
+    position: absolute;
+}
+
+.detail-box:hover .action{
+    display: block;
+}
+
+
+/*固定底部*/
+.foot{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(41,189,224);
+    border-top: white 1px solid;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.foot>.btn{
+    background-color: rgb(251,180,53);
+    color: white;
+    width: 70%;
+}
