@@ -1,0 +1,240 @@
+/*顶端导航*/
+.nav-top{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head{
+    background-color: rgb(41,176,120);
+    border: none;
+    margin: 0;
+}
+
+.nav-bottom{
+    float: right;
+    margin-right: 15%;
+}
+
+.nav-bottom>li>a{
+    color: white;
+
+}
+
+.nav-bottom>li.active a,
+.nav-bottom>li.active:hover a,
+.nav-bottom>li.active a:hover,
+.nav-bottom>li.active a:focus,
+.nav-bottom>li>a:hover,
+.nav-bottom>li>a:focus,
+.nav-bottom>li:hover a{
+    border: none;
+    border-bottom: 2px solid white;
+    background:rgb(41,176,120);
+    color: white;
+}
+
+/*主要内容*/
+/*主页*/
+#home{
+    background-color: rgb(250,250,250);
+}
+
+#home h5{
+    font-weight: bold;
+}
+
+.banner{
+    background-image: url("img/banner.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+    color: white;
+    padding: 100px;
+}
+
+.banner>strong{
+    font-size: 30px;
+}
+
+.banner>.large{
+    font-size: 40px;
+}
+
+.banner>.large>span{
+    font-size: 50px;
+}
+
+.total{
+    padding: 100px 12vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.total>div{
+    text-align: center;
+    width: 15%;
+    font-size: 12px;
+}
+
+.total>div>p,
+.total-right>div{
+    text-align: left;
+    color: rgb(208,208,208);
+    margin-top: 20px;
+}
+
+.total-right>div>span{
+    color: rgb(38,162,111);
+}
+
+.how-to-learn{
+    padding: 0 12vw;
+    text-align: center;
+}
+
+.how-to-learn>div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.how-detail{
+    width: 30%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.how-detail>p{
+    width: 60%;
+    overflow: hidden;
+}
+
+.how-num{
+    border: rgb(227,227,227) solid 1px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: rgb(38,162,111);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show{
+    text-align: center;
+    padding: 100px 12vw;
+}
+
+.show>div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.student{
+    border: rgb(237,237,237) 1px solid;
+    margin: 100px 10px;
+    padding: 10px 15px;
+    width: 200px;
+}
+
+.student>p{
+    text-align: left;
+}
+
+.ad{
+    text-align: center;
+}
+
+.ad-box{
+    display: flex;
+    justify-content: center;
+}
+
+.ad-box>div{
+    width: 15%;
+    background-color: white;
+    border: rgb(248,248,248) 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.link{
+    background-color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px 12vw;
+}
+
+.link>ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.link>ul>li{
+    margin: 10px 3vw;
+    width: 50px;
+}
+
+.link>ul>li>a{
+    color: rgb(153,153,153);
+    font-size: 10px;
+}
+
+/*职业*/
+
+/*推荐*/
+
+/*底部 */
+.foot{
+    background-color: rgb(38,162,111);
+    height: 10%;
+    text-align: center;
+    color: white;
+    padding: 40px 12vw 0 12vw;
+}
+
+.foot a{
+    color: white;
+}
+
+.foot-mid>a{
+    margin-right: 50px;
+}
+
+.foot a:hover{
+    text-decoration: none;
+}
+
+.foot-top{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.QR{
+    width: 90px;
+}
+
+.qr{
+    background-color: white;
+    width: 90px;
+    height: 95px;
+}
+
+.foot-bottom{
+    position: relative;
+    bottom: 5%;
+}
